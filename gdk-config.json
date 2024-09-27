@@ -1,0 +1,16 @@
+{
+  "component": {
+    "com.example.GreengrassPubsub": {
+      "author": "chandra",
+      "version": "NEXT_PATCH",
+      "build": {
+        "build_system": "zip"
+      },
+      "publish": {
+        "bucket": "chandra-ggpub-bucket",
+        "region": "us-east-1"
+      }
+    }
+  },
+  "gdk_version": "1.0.0"
+}
